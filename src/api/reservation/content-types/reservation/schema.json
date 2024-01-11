@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservations",
+  "info": {
+    "singularName": "reservation",
+    "pluralName": "reservations",
+    "displayName": "Reservation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reservation": {
+      "type": "datetime"
+    },
+    "user": {
+      "type": "string"
+    }
+  }
+}
